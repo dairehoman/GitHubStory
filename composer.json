@@ -1,0 +1,6 @@
+{
+  "scripts":{
+    "pdf":
+      "pandoc -s -S --toc -N -c epub/SoftwareStory.css --top-level-division=chapter -o OUTPUT_PDF/SoftwareStory.pdf 00_Title/title.txt  0*/0*.md" 
+  }
+}
