@@ -1,6 +1,6 @@
 {
   "scripts":{
     "pdf":
-      "pandoc -s -S --toc -N --top-level-division=[report] -o OUTPUT_PDF/SoftwareStory.pdf  0*/*.md" 
+      "pandoc -s -S --toc -N --top-level-division=section -o OUTPUT_PDF/SoftwareStory.pdf  0*/*.md" 
   }
 }
